@@ -1,0 +1,157 @@
+.App {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(200deg,#7439db,#c66fcb 48%,#f7944d);
+}
+.naApp{
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: right;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  color:aliceblue;
+  font-size: 25px;
+  background-position: center;
+  background-size: cover;
+  background-image: linear-gradient(200deg,#7439db,#c66fcb 48%,#f7944d);
+  
+  background-image: url("./images/loi.jpg");
+}
+.Appa{
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  /* height: 100%; */
+  padding-left: 10px;
+  background-position: center;
+  background-size: cover;
+  background-image: linear-gradient(200deg,#7439db,#c66fcb 48%,#f7944d);
+  
+  background-image: url("./images/wallpaper.webp");
+
+}
+
+
+ .log , .re{
+  display: flex;
+  flex-direction: column;
+  text-decoration: solid;
+  background-color: transparent;
+}
+.auth-form-container{
+  display: flex;
+  flex-direction: column;
+  text-decoration: solid;
+  background-color: transparent;
+  margin-right: 20px;
+}
+.auth-form-container h2{
+  background-color: transparent;
+  padding: 2px;
+  border-radius: 5px;
+  margin-top: -10px;
+  /* color: white; */
+  box-shadow: 3px 2px 2.5px 2px rgb(55, 11, 82);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+@media screen and (min-width:600px){
+.auth-form-container{
+  border: 2px solid white;
+  padding:4rem ;
+  border-radius: 10px;
+  margin: 0.25rem;
+}
+}
+ .lable{
+  text-align: left;
+  padding: 0.15rem 0;
+  font-weight: bold;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: transparent;
+}
+.input{
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: medium;
+  background-color: azure;
+}
+.input input:hover{
+  background-color: #f7944d;
+}
+.b{
+  border: 2px solid gold; 
+  background-color: rgb(235, 235, 153);
+  padding: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #5f29bc;
+  margin-top: 20px;
+  font-weight: bolder;
+}
+.link{
+  background: none;
+  color: white;
+  text-decoration: underline;
+  border: none;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.matlog {
+  align-items: first baseline;
+  justify-content: start;
+  cursor: pointer;
+  margin-bottom: 1000px;
+  margin-right: 100px;
+  background-color: transparent;
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 5px;
+  font-weight: bold;
+  box-shadow:2px 2px 8px 2px whitesmoke;
+  margin-left: 0px;
+  border-radius: 8px;
+  /* background-color: rgba(168, 255, 127, 0.628); */
+
+}
+.matlog:hover{
+  color: seagreen;
+  font-family: cursive;
+  background-color: rgba(255, 217, 0, 0.429);
+}
+.linkk{
+  width:fit-content;
+  height: 25px;
+  border: none;
+  text-decoration:underline;
+  background-color: transparent;
+  cursor: pointer;
+  margin-top: 30px;
+  margin-bottom: -40px;
+  margin-left: 150px;
+  font-weight: bold;
+  
+
+}
+ input:hover{
+  font-weight: bold;
+  background-color: beige;
+  box-shadow: 5px 3px 2px 3px rgba(28, 28, 27, 0.662);
+ }
+ .b:hover{
+  color: black;
+  box-shadow: 2px 2px 2px 2px whitesmoke;
+  background-color: rgba(128, 0, 128, 0.678);
+  
+ }

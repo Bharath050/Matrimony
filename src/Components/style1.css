@@ -1,0 +1,57 @@
+
+  .back11{
+    /* background-image: url("../images/bear2.jpg"); */
+    background-color: rgba(0, 0, 0, 0.836);
+    position: fixed;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    /* align-items: center; */
+    height: 100%;
+    /* padding: 2 px;  s */
+    
+  }
+  
+  .datatable-container1 {
+      background-color:transparent;
+      font-family:  'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    .datatable1 {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: center;
+     
+     
+    }
+    
+    .datatable1 th,
+    .datatable1 td {
+      /* box-shadow: 2px 1px 2px 1px whitesmoke; */
+      padding: 8px;
+      border: 1.5px solid white;
+      color: aliceblue;
+      /* border: 2px solid rgba(42, 33, 33, 0.667); */
+      
+    }
+    
+    .datatable1 th {
+      cursor: pointer;
+      text-align: center;
+      background-color: #f2f2f2e3;
+      color: black;
+      border: 2px solid black;
+      
+    }
+   
+    
+    .datatable button {
+      margin-right: 5px;
+    }
+    tr{
+      text-align: center;
+    }
+    th{
+      text-align: center;
+    }

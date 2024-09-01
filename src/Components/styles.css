@@ -1,0 +1,88 @@
+ .black{
+  background-image: url("../images/bear2.jpg");
+  position: fixed;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  align-items: center;
+  height: 100%;
+  
+}
+
+#edit{
+  margin-left: 700px;
+}
+.idt3{
+    align-items: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-left: 10px;
+}
+
+.datatable-container {
+    margin: 20px;
+    background-color:transparent;
+  }
+  .back h1{
+     text-align: center;
+     color: black;
+     text-transform: uppercase;
+     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     
+  }
+  .add{
+    margin-left: 20px;
+    box-shadow: 2px 1px 3px 1px whitesmoke;
+    color: whitesmoke;
+    border: 1px solid #ddd;
+    background-color:transparent;
+    border: 2px solid rgba(42, 33, 33, 0.667);
+    width: 150px;
+    height: 50px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor:pointer;
+  }
+  
+  .datatable {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+   
+   
+  }
+  
+  .datatable th,
+  .datatable td {
+    padding: 8px;
+    box-shadow: 2px 1px 3px 1px whitesmoke;
+    color: whitesmoke;
+    border: 1px solid #ddd;
+    background-color:transparent;
+    border: 2px solid rgba(42, 33, 33, 0.667);
+    
+  }
+  
+  .datatable th {
+    cursor: pointer;
+    text-align: center;
+    
+  }
+  
+  .datatable th:hover,td:hover,.add:hover {
+    background-color: #f2f2f2e3;
+    /* text-shadow: 2px; */
+    color: cadetblue;
+    /* font-weight: bold;  
+    font-family: 'sans-serif';   */
+  }
+  
+  .datatable button {
+    margin-right: 5px;
+  }
+  tr{
+    text-align: center;
+  }
+  th{
+    text-align: center;
+  }
